@@ -1,0 +1,92 @@
+.fade-in {
+   opacity: 0;
+   transition: opacity 0.5s ease-in;
+   animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+   to {
+      opacity: 1;
+   }
+}
+
+.how-it-works .step,
+.features .feature,
+.testimonials .testimonial,
+.call-to-action .cta-button {
+   opacity: 0;
+}
+
+@keyframes fadeInScale {
+   to {
+      opacity: 1;
+      transform: scale(1);
+   }
+}
+
+@keyframes bounceIn {
+   0% {
+      opacity: 0;
+      transform: translateY(20px);
+   }
+
+   50% {
+      opacity: 0.5;
+      transform: translateY(-10px);
+   }
+
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+@keyframes slideIn {
+   to {
+      opacity: 1;
+      transform: translateX(0);
+   }
+}
+
+.cta-button:hover {
+   background-color: #ff7597;
+   transform: scale(1.05);
+}
+
+.fade-in-box {
+   opacity: 0;
+   transition: opacity 0.5s ease-in;
+}
+
+.fade-in-enter {
+   opacity: 0;
+}
+
+.fade-in-enter-active {
+   opacity: 1;
+}
+
+.fade-in-exit {
+   opacity: 1;
+}
+
+.fade-in-exit-active {
+   opacity: 0;
+}
+
+.file-upload-container {
+   width: 100%;
+   /* Make it responsive */
+   padding: 1.5rem;
+   /* Adjust padding */
+   background-color: #2d3748;
+   /* Gray-800 */
+   border-radius: 0.375rem;
+   /* md */
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+   /* lg */
+   text-align: center;
+   /* Center text */
+   transition: opacity 0.5s ease-in-out;
+   /* Smooth transition */
+}
