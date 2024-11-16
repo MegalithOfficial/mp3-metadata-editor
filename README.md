@@ -75,7 +75,7 @@ We welcome contributions! If you'd like to contribute to this project, follow th
 1. **Fork the Repository**: Click the "Fork" button at the top right of the repository page.
 2. **Clone Your Fork**:
    ```bash
-   git clone https://github.com/megalithofficial/mp3-metadata-editor.git
+   git clone https://github.com/MegalithOfficial/mp3-metadata-editor.git
    cd mp3-metadata-editor
    ```
 3. **Create a New Branch**:

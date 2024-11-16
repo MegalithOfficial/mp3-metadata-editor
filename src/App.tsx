@@ -206,7 +206,7 @@ const App: React.FC = () => {
         <Flex alignItems="center" justifyContent="center" fontSize="sm">
           Made with ❤️ by{' '}
           <Link
-            href="https://github.com/your-github-username"
+            href="https://github.com/MegalithOfficial"
             color="teal.300"
             target="_blank"
             rel="noopener noreferrer"
