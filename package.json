@@ -1,5 +1,5 @@
 {
-  "name": "mp3-tag-editor",
+  "name": "mp3-metadata-editor",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -17,6 +17,7 @@
     "browser-id3-writer": "^6.1.0",
     "file-saver": "^2.0.5",
     "framer-motion": "^11.11.10",
+    "mp3-metadata-editor": "file:",
     "mp3-tag-editor": "file:",
     "music-metadata": "^10.6.0",
     "next-themes": "^0.3.0",
