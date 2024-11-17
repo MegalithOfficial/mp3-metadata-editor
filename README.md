@@ -6,8 +6,7 @@
 [![Chakra UI](https://img.shields.io/badge/Chakra%20UI-319795?style=for-the-badge&logo=chakraui&logoColor=white)](https://chakra-ui.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
 
-![Screenshot 1](images/1.png)
-![Screenshot 2](images/2.png)
+![Screenshot 1](images/full.png)
 
 ## 🌟 Overview
 
