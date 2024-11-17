@@ -15,7 +15,7 @@ The **MP3 Metadata Editor** is a modern React application that allows users to e
 
 ## 🌐 Demo
 
-Try the live demo of the MP3 Metadata Editor here: [MP3 Metadata Editor Demo](https://your-demo-link.com)
+Try the live demo of the MP3 Metadata Editor here: [MP3 Metadata Editor Demo](https://github.com/MegalithOfficial/mp3-metadata-editor)
 
 ## 🚀 Features
 
