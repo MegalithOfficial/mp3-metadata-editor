@@ -1,15 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {
-   Box,
-   Button,
-   Input,
-   VStack,
-   Textarea,
-   HStack,
-   Image,
-   Text,
-   Flex,
-} from '@chakra-ui/react';
+import { Box, Button, Input, VStack, Textarea, HStack, Image, Text, Flex } from '@chakra-ui/react';
 import { parseBlob } from 'music-metadata';
 import { saveAs } from 'file-saver';
 import { ID3Writer } from 'browser-id3-writer';
@@ -23,12 +13,12 @@ interface TagData {
    album?: string;
    genre?: string;
    unsyncedLyrics?: string;
-}
+};
 
 interface TagEditorProps {
    file: File;
    onTagsChange: (updatedTags: TagData, coverImage?: string | null) => void;
-}
+};
 
 const TagEditor: React.FC<TagEditorProps> = ({ file, onTagsChange }) => {
    const [tags, setTags] = useState<TagData>({});
