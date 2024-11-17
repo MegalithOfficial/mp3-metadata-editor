@@ -101,7 +101,6 @@ const App: React.FC = () => {
               colorScheme="teal"
               size="lg"
               fontWeight="bold"
-              onClick={() => document.getElementById("file-upload")?.click()}
               boxShadow="0px 4px 15px rgba(0, 0, 0, 0.2)"
               transition="all 0.3s ease"
               _hover={{
@@ -112,6 +111,9 @@ const App: React.FC = () => {
               _active={{
                 background: "rgb(203, 96, 224)",
                 transform: "scale(0.98)",
+              }}
+              onClick={() => {
+                document.getElementById("main-content")?.scrollIntoView({ behavior: "smooth" });
               }}
             >
               Get Started
@@ -125,7 +127,7 @@ const App: React.FC = () => {
      <HowItWorks />
 
       {/* Main Content */}
-      <Box py={12} px={6} display="flex" alignItems="center" justifyContent="center" flex="1">
+      <Box id="main-content" py={12} px={6} display="flex" alignItems="center" justifyContent="center" flex="1">
         {selectedFile ? (
           <Grid templateColumns={{ base: '1fr', md: '1fr 2fr' }} gap={6} w="full" maxW="1200px" mx="auto" p={6}>
             <GridItem
