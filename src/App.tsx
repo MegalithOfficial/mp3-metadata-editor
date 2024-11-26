@@ -124,7 +124,7 @@ const App: React.FC = () => {
 
 
       {/* How It Works Section */}
-     <HowItWorks />
+      <HowItWorks />
 
       {/* Main Content */}
       <Box id="main-content" py={12} px={6} display="flex" alignItems="center" justifyContent="center" flex="1">
@@ -146,9 +146,9 @@ const App: React.FC = () => {
           </Grid>
         ) : (
           <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
           >
             <Flex
               alignItems="center"
