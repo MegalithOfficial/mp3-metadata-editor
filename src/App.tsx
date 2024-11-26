@@ -173,13 +173,9 @@ const App: React.FC = () => {
                 <FileUpload onFileUpload={setSelectedFile} />
               </Box>
 
-              <motion.div
-                animate={isMobile ? { y: [0, 12, 0] } : { x: [0, 10, 0] }}
-                transition={{ repeat: Infinity, duration: 1 }}
-              >
+              <motion.div>
                 {isMobile ? (<FaArrowUp style={{ width: 80, height: 60 }} />) : (<FaArrowLeft style={{ width: 80, height: 60 }} />)}
               </motion.div>
-
 
               <VStack
                 align="start"
